@@ -1,0 +1,33 @@
+import carddb
+import xml.dom.minidom
+
+class jMemorizeCard(carddb.Card):
+	def __init__(self, tterm, tdef):
+		self.tterm = tterm
+		self.tdef = tdef
+	def term(self):
+		return self.tterm
+	def definition(self):
+		return self.tdef
+
+
+class jMemorizeDB(carddb.db):
+	def __init__(self):
+		self.dom = xml.dom.minidom.parse('french.jml')
+		self.cards = self.dom.getElementsByTagName('Card')
+		self.index = 0
+
+	def getCard(self):
+		if self.index == self.cards.length:
+			self.index = 0
+		node = self.cards.item(self.index)
+		self.index = self.index + 1
+		return jMemorizeCard(node.getAttribute('Frontside'), node.getAttribute('Backside'))
+
+# test
+db = jMemorizeDB()
+for i in range(0,3):
+	crd = db.getCard()
+	print 'Term: \n\t', crd.term()
+	print 'Def: \n\t', crd.definition()
+

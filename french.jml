@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Lesson>
+<Category name="All">
+<Deck/>
+<Deck/>
+<Deck/>
+<Deck/>
+<Category name="Le participe passé">
+<Deck/>
+<Deck/>
+<Deck/>
+<Deck/>
+<Category name="verbes avec être">
+<Deck/>
+<Deck>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="être né" DateCreated="27-May-2008 16:11:44" DateExpired="18-Jul-2008 13:44:17" DateModified="27-May-2008 16:11:44" DateTested="17-Jul-2008 13:44:17" DateTouched="17-Jul-2008 13:48:28" Frontside="naître" TestsHit="2" TestsTotal="3">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="être mort" DateCreated="27-May-2008 16:12:15" DateExpired="18-Jul-2008 13:44:17" DateModified="10-Jun-2008 18:00:40" DateTested="17-Jul-2008 13:44:17" DateTouched="17-Jul-2008 13:48:35" Frontside="mourir" TestsHit="2" TestsTotal="4">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="être descendu" DateCreated="27-May-2008 16:14:30" DateExpired="18-Jul-2008 13:44:17" DateModified="27-May-2008 16:14:30" DateTested="17-Jul-2008 13:44:17" DateTouched="17-Jul-2008 13:48:47" Frontside="descendre" TestsHit="2" TestsTotal="3">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="être venu" DateCreated="27-May-2008 16:14:57" DateExpired="18-Jul-2008 13:44:17" DateModified="27-May-2008 16:14:57" DateTested="17-Jul-2008 13:44:17" DateTouched="17-Jul-2008 13:48:51" Frontside="venir" TestsHit="2" TestsTotal="3">
+<Side/>
+<Side/>
+</Card>
+</Deck>
+<Deck>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="être parti" DateCreated="27-May-2008 16:12:50" DateExpired="19-Jul-2008 13:44:17" DateModified="27-May-2008 16:12:50" DateTested="17-Jul-2008 13:44:17" DateTouched="17-Jul-2008 13:44:35" Frontside="partir" TestsHit="2" TestsTotal="2">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="être tombé" DateCreated="27-May-2008 16:10:32" DateExpired="19-Jul-2008 13:44:17" DateModified="27-May-2008 16:10:52" DateTested="17-Jul-2008 13:44:17" DateTouched="17-Jul-2008 13:44:42" Frontside="tomber" TestsHit="2" TestsTotal="2">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="être arrivé" DateCreated="27-May-2008 16:13:43" DateExpired="19-Jul-2008 13:44:17" DateModified="27-May-2008 16:13:43" DateTested="17-Jul-2008 13:44:17" DateTouched="17-Jul-2008 13:44:49" Frontside="arriver" TestsHit="2" TestsTotal="2">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="être monté" DateCreated="27-May-2008 16:14:06" DateExpired="19-Jul-2008 13:44:17" DateModified="27-May-2008 16:14:06" DateTested="17-Jul-2008 13:44:17" DateTouched="17-Jul-2008 13:47:41" Frontside="monter" TestsHit="2" TestsTotal="2">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="être entré" DateCreated="27-May-2008 16:09:26" DateExpired="19-Jul-2008 13:44:17" DateModified="27-May-2008 16:09:26" DateTested="17-Jul-2008 13:44:17" DateTouched="17-Jul-2008 13:47:48" Frontside="entrer" TestsHit="2" TestsTotal="2">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="être resté" DateCreated="27-May-2008 16:11:19" DateExpired="19-Jul-2008 13:44:17" DateModified="27-May-2008 16:11:19" DateTested="17-Jul-2008 13:44:17" DateTouched="17-Jul-2008 13:47:52" Frontside="rester" TestsHit="2" TestsTotal="2">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="etre allé" DateCreated="27-May-2008 15:21:05" DateExpired="19-Jul-2008 13:44:17" DateModified="27-May-2008 15:50:03" DateTested="17-Jul-2008 13:44:17" DateTouched="17-Jul-2008 13:47:56" Frontside="aller" TestsHit="2" TestsTotal="3">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="être sorti" DateCreated="27-May-2008 16:09:54" DateExpired="19-Jul-2008 13:44:17" DateModified="27-May-2008 16:09:54" DateTested="17-Jul-2008 13:44:17" DateTouched="17-Jul-2008 13:48:22" Frontside="sortir" TestsHit="2" TestsTotal="2">
+<Side/>
+<Side/>
+</Card>
+</Deck>
+</Category>
+<Category name="verbes irréguliers">
+<Deck/>
+<Deck>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="fait" DateCreated="27-May-2008 16:17:37" DateExpired="18-Jul-2008 13:41:52" DateModified="27-May-2008 16:17:37" DateTested="17-Jul-2008 13:41:52" DateTouched="17-Jul-2008 13:43:32" Frontside="faire" TestsHit="3" TestsTotal="4">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="écrit" DateCreated="27-May-2008 16:18:20" DateExpired="18-Jul-2008 13:41:52" DateModified="27-May-2008 16:18:20" DateTested="17-Jul-2008 13:41:52" DateTouched="17-Jul-2008 13:43:35" Frontside="écrire" TestsHit="3" TestsTotal="4">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="dû" DateCreated="27-May-2008 16:21:19" DateExpired="18-Jul-2008 13:41:52" DateModified="27-May-2008 16:21:19" DateTested="17-Jul-2008 13:41:52" DateTouched="17-Jul-2008 13:43:40" Frontside="devoir" TestsHit="3" TestsTotal="5">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="dit" DateCreated="27-May-2008 16:17:47" DateExpired="18-Jul-2008 13:41:52" DateModified="27-May-2008 16:17:47" DateTested="17-Jul-2008 13:41:52" DateTouched="17-Jul-2008 13:43:43" Frontside="dire" TestsHit="3" TestsTotal="4">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="suivi" DateCreated="27-May-2008 16:21:08" DateExpired="18-Jul-2008 13:41:52" DateModified="27-May-2008 16:21:08" DateTested="17-Jul-2008 13:41:52" DateTouched="17-Jul-2008 13:43:50" Frontside="suivre" TestsHit="3" TestsTotal="6">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="pris" DateCreated="27-May-2008 16:18:36" DateExpired="18-Jul-2008 13:41:52" DateModified="27-May-2008 16:18:36" DateTested="17-Jul-2008 13:41:52" DateTouched="17-Jul-2008 13:43:56" Frontside="prendre" TestsHit="3" TestsTotal="4">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="eu" DateCreated="27-May-2008 16:18:55" DateExpired="18-Jul-2008 13:41:52" DateModified="27-May-2008 16:18:55" DateTested="17-Jul-2008 13:41:52" DateTouched="17-Jul-2008 13:44:08" Frontside="avoir" TestsHit="3" TestsTotal="6">
+<Side/>
+<Side/>
+</Card>
+</Deck>
+<Deck>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="voulu" DateCreated="27-May-2008 16:20:23" DateExpired="19-Jul-2008 13:41:52" DateModified="27-May-2008 16:20:23" DateTested="17-Jul-2008 13:41:52" DateTouched="17-Jul-2008 13:42:09" Frontside="vouloir" TestsHit="3" TestsTotal="5">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="ri" DateCreated="27-May-2008 16:20:33" DateExpired="19-Jul-2008 13:41:52" DateModified="27-May-2008 16:20:33" DateTested="17-Jul-2008 13:41:52" DateTouched="17-Jul-2008 13:42:21" Frontside="rire" TestsHit="3" TestsTotal="5">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="reçu" DateCreated="27-May-2008 16:22:14" DateExpired="19-Jul-2008 13:41:52" DateModified="27-May-2008 16:22:14" DateTested="17-Jul-2008 13:41:52" DateTouched="17-Jul-2008 13:42:27" Frontside="recevoir" TestsHit="3" TestsTotal="4">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="pu" DateCreated="27-May-2008 16:19:23" DateExpired="19-Jul-2008 13:41:52" DateModified="27-May-2008 16:19:23" DateTested="17-Jul-2008 13:41:52" DateTouched="17-Jul-2008 13:42:31" Frontside="pouvoir" TestsHit="3" TestsTotal="4">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="lu" DateCreated="27-May-2008 16:19:10" DateExpired="19-Jul-2008 13:41:52" DateModified="27-May-2008 16:19:10" DateTested="17-Jul-2008 13:41:52" DateTouched="17-Jul-2008 13:42:39" Frontside="lire" TestsHit="3" TestsTotal="5">
+<Side/>
+<Side/>
+</Card>
+</Deck>
+<Deck>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="couru" DateCreated="27-May-2008 16:19:56" DateExpired="20-Jul-2008 13:41:52" DateModified="27-May-2008 16:19:56" DateTested="17-Jul-2008 13:41:52" DateTouched="17-Jul-2008 13:42:12" Frontside="courir" TestsHit="3" TestsTotal="3">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="mis" DateCreated="27-May-2008 16:18:45" DateExpired="20-Jul-2008 13:41:52" DateModified="27-May-2008 16:18:45" DateTested="17-Jul-2008 13:41:52" DateTouched="17-Jul-2008 13:43:03" Frontside="mettre" TestsHit="3" TestsTotal="3">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="été" DateCreated="27-May-2008 16:20:54" DateExpired="20-Jul-2008 13:41:52" DateModified="27-May-2008 16:20:54" DateTested="17-Jul-2008 13:41:52" DateTouched="17-Jul-2008 13:43:06" Frontside="être" TestsHit="3" TestsTotal="3">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="vu" DateCreated="27-May-2008 16:19:02" DateExpired="20-Jul-2008 13:41:52" DateModified="27-May-2008 16:19:02" DateTested="17-Jul-2008 13:41:52" DateTouched="17-Jul-2008 13:43:16" Frontside="voir" TestsHit="3" TestsTotal="3">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="répondu" DateCreated="27-May-2008 16:19:39" DateExpired="20-Jul-2008 13:41:52" DateModified="27-May-2008 16:19:39" DateTested="17-Jul-2008 13:41:52" DateTouched="17-Jul-2008 13:43:22" Frontside="répondre" TestsHit="3" TestsTotal="3">
+<Side/>
+<Side/>
+</Card>
+</Deck>
+</Category>
+</Category>
+<Category name="Le présent de l´indicatif">
+<Deck/>
+<Deck/>
+<Category name="Verbes irreguliers">
+<Deck>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="je sers     nous servons&#10;tu sers     vous servez&#10;il sert       elles servent" DateCreated="28-May-2008 09:58:48" DateModified="29-May-2008 15:03:44" DateTouched="28-May-2008 10:01:53" Frontside="servir" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="je vis     nous vivons&#10;tu vis     vous vivez&#10;il vit       elles vivent" DateCreated="28-May-2008 09:58:48" DateModified="29-May-2008 15:07:57" DateTested="29-May-2008 16:19:51" DateTouched="29-May-2008 16:26:46" Frontside="vivre" TestsHit="0" TestsTotal="1">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="je vois     nous voyons&#10;tu vois     vous voyez&#10;il voit       elles voient" DateCreated="28-May-2008 09:58:48" DateModified="29-May-2008 17:49:58" DateTested="29-May-2008 16:19:51" DateTouched="29-May-2008 16:31:00" Frontside="voir" TestsHit="0" TestsTotal="1">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="je sais     nous savons&#10;tu sais     vous savez&#10;il sait       elles savent" DateCreated="28-May-2008 09:58:48" DateModified="29-May-2008 14:51:21" DateTested="29-May-2008 17:40:54" DateTouched="29-May-2008 17:45:55" Frontside="savoir" TestsHit="0" TestsTotal="2">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="j´envoie        nous envoyons&#10;tu envoies     vous envoyez&#10;il envoie        elles envoient" DateCreated="28-May-2008 09:58:48" DateModified="29-May-2008 14:55:49" DateTested="29-May-2008 17:40:54" DateTouched="29-May-2008 17:49:07" Frontside="envoyer" TestsHit="0" TestsTotal="4">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="j'ai     nous avons&#10;tu as     vous avez&#10;il  a      elles  ont" DateCreated="28-May-2008 09:58:48" DateModified="10-Jun-2008 17:57:06" DateTested="10-Jun-2008 17:48:20" DateTouched="10-Jun-2008 17:49:46" Frontside="avoir" TestsHit="1" TestsTotal="2">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="j´ouvre      nous ouvrons&#10;tu ouvres    vous ouvrez&#10;il ouvre       elles ouvrent" DateCreated="28-May-2008 09:58:48" DateModified="29-May-2008 15:00:19" DateTested="10-Jun-2008 17:48:20" DateTouched="10-Jun-2008 17:52:19" Frontside="ouvrir" TestsHit="0" TestsTotal="1">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="je connais     nous connaissons&#10;tu connais     vous connaissez&#10;il connait       elles connaissent" DateCreated="28-May-2008 09:58:48" DateModified="29-May-2008 14:53:10" DateTested="10-Jun-2008 17:48:20" DateTouched="10-Jun-2008 17:53:09" Frontside="connaître" TestsHit="1" TestsTotal="3">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="je reçois     nous recevons&#10;tu reçois     vous recevez&#10;il  reçoit      elles reçoivent" DateCreated="28-May-2008 09:58:48" DateModified="29-May-2008 13:56:10" DateTested="10-Jun-2008 17:48:20" DateTouched="10-Jun-2008 17:55:12" Frontside="recevoir" TestsHit="0" TestsTotal="3">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="je viens     nous venons&#10;tu viens     vous venez&#10;il  vient      elles viennent" DateCreated="28-May-2008 09:58:48" DateModified="29-May-2008 13:20:08" DateTested="17-Jul-2008 13:49:39" DateTouched="17-Jul-2008 13:50:01" Frontside="venir" TestsHit="0" TestsTotal="3">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="j´écris      nous écrivons&#10;tu écris     vous écrivez&#10;il écrit       elles écrivent" DateCreated="28-May-2008 09:58:48" DateModified="29-May-2008 13:13:39" DateTested="17-Jul-2008 13:49:39" DateTouched="17-Jul-2008 13:50:31" Frontside="écrire" TestsHit="0" TestsTotal="3">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="je sors     nous sortons&#10;tu sors     vous sortez&#10;il sort       elles sortent" DateCreated="28-May-2008 09:58:48" DateModified="29-May-2008 15:02:03" DateTested="17-Jul-2008 13:49:39" DateTouched="17-Jul-2008 13:50:42" Frontside="sortir" TestsHit="1" TestsTotal="3">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="je ris     nous rions&#10;tu ris     vous riez&#10;il  rit      elles rient" DateCreated="28-May-2008 09:58:48" DateModified="29-May-2008 14:03:32" DateTested="17-Jul-2008 13:49:39" DateTouched="17-Jul-2008 13:51:03" Frontside="rire" TestsHit="0" TestsTotal="3">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="je  pars    nous partons&#10;tu  pars    vous partez&#10;il   part     elles partent" DateCreated="28-May-2008 09:58:48" DateModified="29-May-2008 12:52:37" DateTested="17-Jul-2008 13:49:39" DateTouched="17-Jul-2008 13:51:18" Frontside="partir" TestsHit="1" TestsTotal="3">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="je bois     nous buvons&#10;tu bois     vous buvez&#10;il  boit      elles boivent " DateCreated="28-May-2008 09:58:48" DateModified="29-May-2008 14:48:50" DateTested="17-Jul-2008 13:49:39" DateTouched="17-Jul-2008 13:51:35" Frontside="boir" TestsHit="1" TestsTotal="4">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="je dis      nous disons&#10;tu dis      vous dites&#10;il  dit       elles disent" DateCreated="28-May-2008 09:58:48" DateModified="29-May-2008 16:19:46" DateTested="17-Jul-2008 13:49:39" DateTouched="17-Jul-2008 13:52:02" Frontside="dire" TestsHit="1" TestsTotal="2">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="je dois     nous devons&#10;tu dois     vous devez&#10;il  doit      elles doivent" DateCreated="28-May-2008 09:58:48" DateModified="29-May-2008 13:53:06" DateTested="17-Jul-2008 13:49:39" DateTouched="17-Jul-2008 13:52:15" Frontside="devior" TestsHit="0" TestsTotal="5">
+<Side/>
+<Side/>
+</Card>
+</Deck>
+<Deck>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="je suis     nous sommes&#10;tu es       vous êtes&#10;il  est      elles sont" DateCreated="28-May-2008 09:58:48" DateExpired="30-May-2008 15:44:27" DateModified="10-Jun-2008 17:57:26" DateTested="29-May-2008 15:44:27" DateTouched="29-May-2008 15:45:20" Frontside="être" TestsHit="1" TestsTotal="1">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="je lis     nous lisons&#10;tu lis     vous lisez&#10;il  lit      elles lisent&#10;" DateCreated="28-May-2008 09:44:27" DateExpired="30-May-2008 15:49:58" DateModified="10-Jun-2008 17:57:55" DateTested="29-May-2008 15:49:58" DateTouched="29-May-2008 16:08:04" Frontside="lire" TestsHit="1" TestsTotal="2">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="je comprends     nous comprenons&#10;tu comprends     vous comprenez&#10;il comprend        elles comprennent" DateCreated="28-May-2008 09:58:48" DateExpired="30-May-2008 16:10:54" DateModified="29-May-2008 13:11:23" DateTested="29-May-2008 16:10:54" DateTouched="29-May-2008 16:12:13" Frontside="comprendre" TestsHit="1" TestsTotal="1">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="je dors     nous dormons&#10;tu dors     vous dormez&#10;il dort       elles dorment " DateCreated="28-May-2008 09:58:48" DateExpired="30-May-2008 16:10:54" DateModified="29-May-2008 14:50:26" DateTested="29-May-2008 16:10:54" DateTouched="29-May-2008 16:13:05" Frontside="dormir" TestsHit="1" TestsTotal="2">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="je suis     nous suivons&#10;tu suis     vous suivez&#10;il suit       elles suivent" DateCreated="28-May-2008 09:58:48" DateExpired="30-May-2008 16:10:54" DateModified="29-May-2008 15:05:03" DateTested="29-May-2008 16:10:54" DateTouched="29-May-2008 16:15:52" Frontside="suivre" TestsHit="1" TestsTotal="2">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="j´apprends      nous apprenons&#10;tu apprends     vous apprenez&#10;il  apprend       elles apprennent" DateCreated="28-May-2008 09:58:48" DateExpired="30-May-2008 16:19:51" DateModified="29-May-2008 13:09:56" DateTested="29-May-2008 16:19:51" DateTouched="29-May-2008 16:29:14" Frontside="apprendre" TestsHit="1" TestsTotal="1">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="je prends     nous prenons&#10;tu prends     vous prenez&#10;il  prend      elles  prennent" DateCreated="28-May-2008 09:58:48" DateExpired="30-May-2008 16:19:51" DateModified="28-May-2008 10:01:31" DateTested="29-May-2008 16:19:51" DateTouched="29-May-2008 16:35:25" Frontside="prendre" TestsHit="1" TestsTotal="2">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="je mets     nous mettons&#10;tu mets     vous mettez&#10;il  met       elles mettent" DateCreated="28-May-2008 09:58:48" DateExpired="30-May-2008 17:40:54" DateModified="29-May-2008 14:04:50" DateTested="29-May-2008 17:40:54" DateTouched="29-May-2008 17:42:01" Frontside="mettre" TestsHit="1" TestsTotal="2">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="je veux     nous voulons&#10;tu veux     vous voulez&#10;il  veut      elles veulent" DateCreated="28-May-2008 09:58:48" DateExpired="30-May-2008 17:40:54" DateModified="29-May-2008 13:30:42" DateTested="29-May-2008 17:40:54" DateTouched="29-May-2008 17:42:26" Frontside="vouloir" TestsHit="1" TestsTotal="2">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="je fais     nous faisons&#10;tu fais     vous faites&#10;il  fait      elles font" DateCreated="28-May-2008 09:58:48" DateExpired="30-May-2008 17:40:54" DateModified="29-May-2008 12:53:46" DateTested="29-May-2008 17:40:54" DateTouched="29-May-2008 17:43:16" Frontside="faire" TestsHit="1" TestsTotal="1">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="je vais     nous allons&#10;tu vas      vous allez&#10;il  va       elles  vont" DateCreated="28-May-2008 09:58:48" DateExpired="30-May-2008 17:40:54" DateModified="29-May-2008 12:58:41" DateTested="29-May-2008 17:40:54" DateTouched="29-May-2008 17:44:57" Frontside="aller" TestsHit="1" TestsTotal="1">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="je peux     nous pouvons&#10;tu peux     vous pouvez&#10;il  peut      elles peuvent" DateCreated="28-May-2008 09:58:48" DateExpired="30-May-2008 17:40:54" DateModified="29-May-2008 13:31:42" DateTested="29-May-2008 17:40:54" DateTouched="29-May-2008 17:47:31" Frontside="pouvoir" TestsHit="1" TestsTotal="2">
+<Side/>
+<Side/>
+</Card>
+</Deck>
+</Category>
+</Category>
+<Category name="potuchanskaia">
+<Deck/>
+<Deck/>
+<Deck/>
+<Deck/>
+<Category name="Vocabulaire">
+<Deck/>
+<Deck/>
+<Deck/>
+<Deck/>
+<Category name="lesson 10">
+<Deck/>
+<Deck>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="что?" DateCreated="17-Jun-2008 18:19:59" DateExpired="25-Jul-2008 13:41:08" DateModified="17-Jun-2008 18:19:59" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:43:12" Frontside="quoi?" TestsHit="4" TestsTotal="11">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="быть удивленным" DateCreated="17-Jun-2008 18:22:33" DateExpired="25-Jul-2008 13:41:08" DateModified="17-Jun-2008 18:22:33" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:49:49" Frontside="être étonné" TestsHit="4" TestsTotal="12">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="Что происходит?" DateCreated="17-Jun-2008 18:25:31" DateExpired="25-Jul-2008 13:41:08" DateModified="17-Jun-2008 18:25:31" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:50:03" Frontside="qu'est-ce qu'il y a?" TestsHit="4" TestsTotal="16">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="закрываться снова" DateCreated="17-Jun-2008 18:19:19" DateExpired="25-Jul-2008 13:41:08" DateModified="17-Jun-2008 18:19:19" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:50:16" Frontside="se refermer" TestsHit="4" TestsTotal="16">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="открываться" DateCreated="17-Jun-2008 18:18:56" DateExpired="25-Jul-2008 13:41:08" DateModified="17-Jun-2008 18:18:56" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:50:23" Frontside="s'ouvrir" TestsHit="3" TestsTotal="7">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="спокойно" DateCreated="17-Jun-2008 18:16:37" DateExpired="25-Jul-2008 13:41:08" DateModified="17-Jun-2008 18:16:37" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:50:28" Frontside="tranquillement" TestsHit="3" TestsTotal="8">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="свободный" DateCreated="17-Jun-2008 18:12:50" DateExpired="25-Jul-2008 13:41:08" DateModified="17-Jun-2008 18:12:50" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:50:34" Frontside="libre" TestsHit="3" TestsTotal="6">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="рядом, около" DateCreated="10-Jun-2008 18:50:07" DateExpired="25-Jul-2008 13:41:08" DateModified="10-Jun-2008 18:50:07" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:50:38" Frontside="près de" TestsHit="3" TestsTotal="15">
+<Side/>
+<Side/>
+</Card>
+</Deck>
+<Deck>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="почти" DateCreated="17-Jun-2008 17:15:27" DateExpired="26-Jul-2008 12:20:45" DateModified="17-Jun-2008 17:15:27" DateTested="24-Jul-2008 12:20:45" DateTouched="24-Jul-2008 12:21:04" Frontside="presque" TestsHit="4" TestsTotal="16">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="глухой" DateCreated="17-Jun-2008 18:20:18" DateExpired="26-Jul-2008 12:20:45" DateModified="17-Jun-2008 18:20:18" DateTested="24-Jul-2008 12:20:45" DateTouched="24-Jul-2008 12:21:53" Frontside="sourd, e" TestsHit="4" TestsTotal="12">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="быть заимствованным, быть взятым" DateCreated="10-Jun-2008 18:26:20" DateExpired="26-Jul-2008 12:20:45" DateModified="10-Jun-2008 18:26:20" DateTested="24-Jul-2008 12:20:45" DateTouched="24-Jul-2008 12:22:10" Frontside="être tiré (de)" TestsHit="4" TestsTotal="12">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="быть в восторге" DateCreated="17-Jun-2008 17:22:03" DateExpired="26-Jul-2008 12:20:45" DateModified="17-Jun-2008 17:22:03" DateTested="24-Jul-2008 12:20:45" DateTouched="24-Jul-2008 12:22:47" Frontside="être ravi, -e" TestsHit="4" TestsTotal="12">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="вдруг" DateCreated="17-Jun-2008 18:20:42" DateExpired="26-Jul-2008 12:20:45" DateModified="17-Jun-2008 18:20:42" DateTested="24-Jul-2008 12:20:45" DateTouched="24-Jul-2008 12:22:54" Frontside="tout à coup" TestsHit="4" TestsTotal="14">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="всё ещё" DateCreated="17-Jun-2008 17:09:33" DateExpired="26-Jul-2008 12:20:45" DateModified="17-Jun-2008 17:09:33" DateTested="24-Jul-2008 12:20:45" DateTouched="24-Jul-2008 12:23:43" Frontside="toujours" TestsHit="4" TestsTotal="12">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="на полу" DateCreated="17-Jun-2008 18:08:24" DateExpired="26-Jul-2008 13:41:08" DateModified="17-Jun-2008 18:08:24" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:43:08" Frontside="par terre" TestsHit="4" TestsTotal="10">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="шум" DateCreated="17-Jun-2008 18:23:11" DateExpired="26-Jul-2008 13:41:08" DateModified="17-Jun-2008 18:23:11" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:43:36" Frontside="un bruit" TestsHit="4" TestsTotal="13">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="слышать что-л." DateCreated="17-Jun-2008 18:17:08" DateExpired="26-Jul-2008 13:41:08" DateModified="17-Jun-2008 18:17:08" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:44:04" Frontside="entendre qch" TestsHit="4" TestsTotal="11">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="глаз" DateCreated="17-Jun-2008 18:07:32" DateExpired="26-Jul-2008 13:41:08" DateModified="17-Jun-2008 18:07:32" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:47:43" Frontside="un œil  [œj]" TestsHit="4" TestsTotal="11">
+<Side/>
+<Side/>
+</Card>
+</Deck>
+<Deck>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="пить кофе" DateCreated="17-Jun-2008 18:14:38" DateExpired="27-Jul-2008 12:20:45" DateModified="17-Jun-2008 18:14:38" DateTested="24-Jul-2008 12:20:45" DateTouched="24-Jul-2008 12:20:58" Frontside="prendre son café" TestsHit="3" TestsTotal="5">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="вскусный" DateCreated="17-Jun-2008 18:19:38" DateExpired="27-Jul-2008 12:20:45" DateModified="17-Jun-2008 18:19:38" DateTested="24-Jul-2008 12:20:45" DateTouched="24-Jul-2008 12:21:13" Frontside="bon, ne" TestsHit="3" TestsTotal="5">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="репетировать, разучивать" DateCreated="17-Jun-2008 17:27:23" DateExpired="27-Jul-2008 12:20:45" DateModified="17-Jun-2008 17:27:23" DateTested="24-Jul-2008 12:20:45" DateTouched="24-Jul-2008 12:21:22" Frontside="répéter qch" TestsHit="4" TestsTotal="8">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="угол" DateCreated="10-Jun-2008 18:44:25" DateExpired="27-Jul-2008 12:20:45" DateModified="10-Jun-2008 18:44:25" DateTested="24-Jul-2008 12:20:45" DateTouched="24-Jul-2008 12:21:28" Frontside="un coin" TestsHit="3" TestsTotal="7">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="мяч" DateCreated="17-Jun-2008 17:11:54" DateExpired="27-Jul-2008 12:20:45" DateModified="17-Jun-2008 17:11:54" DateTested="24-Jul-2008 12:20:45" DateTouched="24-Jul-2008 12:21:39" Frontside="un ballon" TestsHit="3" TestsTotal="6">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="выводить кого-л. на прогулку" DateCreated="10-Jun-2008 18:42:36" DateExpired="27-Jul-2008 12:20:45" DateModified="10-Jun-2008 18:42:36" DateTested="24-Jul-2008 12:20:45" DateTouched="24-Jul-2008 12:21:43" Frontside="promener qn" TestsHit="3" TestsTotal="5">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="бутерброд" DateCreated="17-Jun-2008 18:14:08" DateExpired="27-Jul-2008 12:20:45" DateModified="17-Jun-2008 18:14:08" DateTested="24-Jul-2008 12:20:45" DateTouched="24-Jul-2008 12:21:49" Frontside="une tartine" TestsHit="4" TestsTotal="9">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="юмор" DateCreated="10-Jun-2008 18:30:00" DateExpired="27-Jul-2008 12:20:45" DateModified="10-Jun-2008 18:30:00" DateTested="24-Jul-2008 12:20:45" DateTouched="24-Jul-2008 12:22:01" Frontside="l'humour  (&lt;i&gt;m&lt;/i&gt;)" TestsHit="4" TestsTotal="7">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="молочный зуб" DateCreated="17-Jun-2008 17:29:17" DateExpired="27-Jul-2008 12:20:45" DateModified="17-Jun-2008 17:29:17" DateTested="24-Jul-2008 12:20:45" DateTouched="24-Jul-2008 12:22:22" Frontside="une dent de lait" TestsHit="3" TestsTotal="6">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="затем" DateCreated="10-Jun-2008 18:43:16" DateExpired="27-Jul-2008 12:20:45" DateModified="10-Jun-2008 18:43:16" DateTested="24-Jul-2008 12:20:45" DateTouched="24-Jul-2008 12:22:25" Frontside="ensuite" TestsHit="3" TestsTotal="11">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="трудный" DateCreated="17-Jun-2008 18:27:16" DateExpired="27-Jul-2008 12:20:45" DateModified="17-Jun-2008 18:27:16" DateTested="24-Jul-2008 12:20:45" DateTouched="24-Jul-2008 12:22:28" Frontside="difficile" TestsHit="3" TestsTotal="5">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="будить кого-л." DateCreated="10-Jun-2008 18:42:00" DateExpired="27-Jul-2008 12:20:45" DateModified="10-Jun-2008 18:42:00" DateTested="24-Jul-2008 12:20:45" DateTouched="24-Jul-2008 12:22:33" Frontside="réveiller qn" TestsHit="3" TestsTotal="5">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="все" DateCreated="17-Jun-2008 17:24:36" DateExpired="27-Jul-2008 12:20:45" DateModified="17-Jun-2008 17:24:36" DateTested="24-Jul-2008 12:20:45" DateTouched="24-Jul-2008 12:22:39" Frontside="tout le monde" TestsHit="4" TestsTotal="7">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="мне бы хотелось" DateCreated="17-Jun-2008 18:26:07" DateExpired="27-Jul-2008 12:20:45" DateModified="17-Jun-2008 18:26:07" DateTested="24-Jul-2008 12:20:45" DateTouched="24-Jul-2008 12:23:01" Frontside="je voudrais" TestsHit="3" TestsTotal="4">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="нога" DateCreated="17-Jun-2008 18:17:52" DateExpired="27-Jul-2008 12:20:45" DateModified="17-Jun-2008 18:17:52" DateTested="24-Jul-2008 12:20:45" DateTouched="24-Jul-2008 12:23:09" Frontside="un pied" TestsHit="4" TestsTotal="7">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="яйцо" DateCreated="17-Jun-2008 17:30:25" DateExpired="27-Jul-2008 12:20:45" DateModified="17-Jun-2008 18:05:18" DateTested="24-Jul-2008 12:20:45" DateTouched="24-Jul-2008 12:23:17" Frontside="un œuf" TestsHit="3" TestsTotal="7">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="завтракать" DateCreated="10-Jun-2008 18:44:05" DateExpired="27-Jul-2008 12:20:45" DateModified="17-Jun-2008 18:40:21" DateTested="24-Jul-2008 12:20:45" DateTouched="24-Jul-2008 12:23:36" Frontside="prendre le (son) petit déjeuner" TestsHit="3" TestsTotal="5">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="бежать" DateCreated="17-Jun-2008 18:21:16" DateExpired="27-Jul-2008 12:20:45" DateModified="17-Jun-2008 18:21:16" DateTested="24-Jul-2008 12:20:45" DateTouched="24-Jul-2008 12:23:50" Frontside="courir" TestsHit="3" TestsTotal="4">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="одежда" DateCreated="17-Jun-2008 18:08:07" DateExpired="27-Jul-2008 12:20:45" DateModified="17-Jun-2008 18:08:07" DateTested="24-Jul-2008 12:20:45" DateTouched="24-Jul-2008 13:40:54" Frontside="des vêtements" TestsHit="3" TestsTotal="5">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="есть что-л." DateCreated="17-Jun-2008 17:13:07" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 17:13:07" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:41:12" Frontside="manger qch" TestsHit="3" TestsTotal="4">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="свистеть" DateCreated="10-Jun-2008 18:51:23" DateExpired="27-Jul-2008 13:41:08" DateModified="10-Jun-2008 18:51:23" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:41:16" Frontside="siffler" TestsHit="3" TestsTotal="5">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="давать что-л. кому-л." DateCreated="17-Jun-2008 17:14:06" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 17:14:06" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:41:27" Frontside="donner qch à qn" TestsHit="3" TestsTotal="6">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="голова" DateCreated="17-Jun-2008 17:22:23" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 17:22:23" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:41:32" Frontside="une tête" TestsHit="3" TestsTotal="6">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="нежность" DateCreated="10-Jun-2008 18:32:55" DateExpired="27-Jul-2008 13:41:08" DateModified="10-Jun-2008 18:32:55" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:41:37" Frontside="la tendresse" TestsHit="3" TestsTotal="7">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="предпочитать что-л. сделать" DateCreated="10-Jun-2008 18:54:04" DateExpired="27-Jul-2008 13:41:08" DateModified="10-Jun-2008 18:54:04" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:41:54" Frontside="préférer faire qch" TestsHit="3" TestsTotal="6">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="бумага" DateCreated="10-Jun-2008 18:26:42" DateExpired="27-Jul-2008 13:41:08" DateModified="10-Jun-2008 18:26:42" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:42:05" Frontside="le papier" TestsHit="4" TestsTotal="6">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="стелить постель" DateCreated="10-Jun-2008 18:53:15" DateExpired="27-Jul-2008 13:41:08" DateModified="10-Jun-2008 18:53:15" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:42:12" Frontside="faire son lit" TestsHit="3" TestsTotal="6">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="ставить, класть что-л." DateCreated="10-Jun-2008 18:45:57" DateExpired="27-Jul-2008 13:41:08" DateModified="10-Jun-2008 18:45:57" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:42:17" Frontside="mettre qch" TestsHit="3" TestsTotal="4">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="пойти за кем-л., чем-л." DateCreated="17-Jun-2008 17:08:59" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 17:08:59" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:42:40" Frontside="aller chercher qn, qch" TestsHit="3" TestsTotal="6">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="быть в хорошем настроении" DateCreated="17-Jun-2008 17:25:24" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 17:25:24" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:42:48" Frontside="être de bonne humeur" TestsHit="3" TestsTotal="6">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="познакомится с кем-то" DateCreated="10-Jun-2008 18:27:48" DateExpired="27-Jul-2008 13:41:08" DateModified="10-Jun-2008 18:27:48" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:43:31" Frontside="faire connaissance avec qn" TestsHit="3" TestsTotal="6">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="круассан" DateCreated="10-Jun-2008 18:50:45" DateExpired="27-Jul-2008 13:41:08" DateModified="10-Jun-2008 18:50:45" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:43:43" Frontside="un croissant" TestsHit="3" TestsTotal="6">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="под" DateCreated="17-Jun-2008 18:18:02" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 18:18:02" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:43:47" Frontside="sous" TestsHit="3" TestsTotal="4">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="яйца" DateCreated="17-Jun-2008 18:03:53" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 18:03:53" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:43:58" Frontside="des œufs [dezØ]" TestsHit="3" TestsTotal="7">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="вновь, снова" DateCreated="17-Jun-2008 17:15:59" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 17:15:59" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:44:15" Frontside="de nouveau" TestsHit="3" TestsTotal="7">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="новый" DateCreated="17-Jun-2008 17:11:37" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 17:11:37" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:44:18" Frontside="nouveau, nouvelle" TestsHit="3" TestsTotal="5">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="отрывок" DateCreated="10-Jun-2008 18:25:05" DateExpired="27-Jul-2008 13:41:08" DateModified="10-Jun-2008 18:25:05" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:44:23" Frontside="un passage" TestsHit="3" TestsTotal="6">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="быть правым" DateCreated="17-Jun-2008 18:24:05" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 18:24:05" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:44:30" Frontside="avoir raison" TestsHit="3" TestsTotal="6">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="брится" DateCreated="17-Jun-2008 18:12:33" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 18:12:33" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:44:33" Frontside="se raser" TestsHit="3" TestsTotal="4">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="происходить" DateCreated="17-Jun-2008 18:21:00" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 18:21:00" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:44:38" Frontside="se passer" TestsHit="3" TestsTotal="4">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="собака" DateCreated="10-Jun-2008 18:42:54" DateExpired="27-Jul-2008 13:41:08" DateModified="10-Jun-2008 18:42:54" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:44:42" Frontside="un chien" TestsHit="3" TestsTotal="5">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="кровать" DateCreated="10-Jun-2008 18:44:40" DateExpired="27-Jul-2008 13:41:08" DateModified="10-Jun-2008 18:44:40" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:44:57" Frontside="un lit" TestsHit="3" TestsTotal="5">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="без чего-л." DateCreated="17-Jun-2008 17:10:47" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 17:10:47" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:45:01" Frontside="sans qch" TestsHit="3" TestsTotal="5">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="исполнять (роль)" DateCreated="17-Jun-2008 17:28:00" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 17:28:00" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:45:14" Frontside="interpréter qch" TestsHit="4" TestsTotal="13">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="дрозд" DateCreated="10-Jun-2008 18:51:04" DateExpired="27-Jul-2008 13:41:08" DateModified="10-Jun-2008 18:51:04" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:45:18" Frontside="un merle" TestsHit="3" TestsTotal="5">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="откуда" DateCreated="17-Jun-2008 18:17:37" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 18:17:37" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:45:23" Frontside="d'où" TestsHit="3" TestsTotal="6">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="животное" DateCreated="10-Jun-2008 18:28:29" DateExpired="27-Jul-2008 13:41:08" DateModified="10-Jun-2008 18:28:29" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:45:32" Frontside="un animal" TestsHit="3" TestsTotal="6">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="то что ты ешь" DateCreated="17-Jun-2008 18:16:04" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 18:16:04" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:45:44" Frontside="Ce que tu mangers" TestsHit="3" TestsTotal="5">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="просить кого-л. что-л. сделать" DateCreated="10-Jun-2008 18:52:52" DateExpired="27-Jul-2008 13:41:08" DateModified="10-Jun-2008 18:52:52" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:46:01" Frontside="demander à qn de faire qch" TestsHit="3" TestsTotal="6">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="рыба, которую я приготовила" DateCreated="17-Jun-2008 18:24:47" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 18:24:47" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:46:10" Frontside="mon poisson" TestsHit="3" TestsTotal="7">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="отказаться что-л. делать" DateCreated="10-Jun-2008 18:47:21" DateExpired="27-Jul-2008 13:41:08" DateModified="10-Jun-2008 18:47:21" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:46:20" Frontside="refuser de faire qch" TestsHit="3" TestsTotal="5">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="поднос" DateCreated="10-Jun-2008 18:46:26" DateExpired="27-Jul-2008 13:41:08" DateModified="10-Jun-2008 18:46:26" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:46:26" Frontside="un plateau" TestsHit="3" TestsTotal="6">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="глаза" DateCreated="17-Jun-2008 18:06:48" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 18:06:48" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:46:45" Frontside="des yeux [jØ]" TestsHit="3" TestsTotal="6">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="горячее блюдо, готовящееся из сылра или мяса" DateCreated="17-Jun-2008 17:15:04" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 17:15:04" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:46:50" Frontside="la fondue" TestsHit="3" TestsTotal="4">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="вилка" DateCreated="17-Jun-2008 17:21:34" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 17:21:34" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:46:58" Frontside="une fourchette" TestsHit="3" TestsTotal="5">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="столовая в квартире" DateCreated="17-Jun-2008 18:18:34" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 18:18:34" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:47:14" Frontside="une salle à manger" TestsHit="3" TestsTotal="6">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="ждать своей очереди" DateCreated="17-Jun-2008 18:13:26" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 18:13:26" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:47:20" Frontside="attendre son tour" TestsHit="3" TestsTotal="6">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="он смеется" DateCreated="17-Jun-2008 17:24:14" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 17:24:14" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:47:24" Frontside="il rit" TestsHit="3" TestsTotal="6">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="мой муж" DateCreated="17-Jun-2008 18:23:37" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 18:23:37" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:47:29" Frontside="l'Homme de ma vie" TestsHit="3" TestsTotal="5">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="Люксембургский сад" DateCreated="17-Jun-2008 17:10:21" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 17:10:21" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:47:49" Frontside="le jardin du Luxembourg" TestsHit="3" TestsTotal="4">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="просто" DateCreated="17-Jun-2008 18:26:32" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 18:26:32" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:48:10" Frontside="simplement" TestsHit="3" TestsTotal="7">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="быть нездоровым, плохо себя чувствовать" DateCreated="10-Jun-2008 18:48:40" DateExpired="27-Jul-2008 13:41:08" DateModified="10-Jun-2008 18:48:40" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:48:18" Frontside="être souffrant, -e" TestsHit="3" TestsTotal="5">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="наконец" DateCreated="17-Jun-2008 18:08:35" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 18:08:35" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:48:23" Frontside="enfin" TestsHit="3" TestsTotal="8">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="сосиска" DateCreated="17-Jun-2008 17:29:45" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 17:29:45" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:48:26" Frontside="une saucisse" TestsHit="3" TestsTotal="6">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="время после полудня, днем" DateCreated="17-Jun-2008 17:26:26" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 17:26:26" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:48:33" Frontside="l'après-midi" TestsHit="3" TestsTotal="5">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="домашний" DateCreated="10-Jun-2008 18:29:17" DateExpired="27-Jul-2008 13:41:08" DateModified="10-Jun-2008 18:29:17" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:48:38" Frontside="domestique" TestsHit="3" TestsTotal="6">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="моя дорогая" DateCreated="17-Jun-2008 18:26:54" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 18:26:54" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:48:42" Frontside="ma chérie" TestsHit="3" TestsTotal="4">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="уход" DateCreated="17-Jun-2008 18:15:00" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 18:15:00" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:48:50" Frontside="le départ" TestsHit="4" TestsTotal="8">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="пение" DateCreated="10-Jun-2008 18:51:39" DateExpired="27-Jul-2008 13:41:08" DateModified="10-Jun-2008 18:51:39" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:48:54" Frontside="le chant" TestsHit="3" TestsTotal="5">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="желудок, живот" DateCreated="17-Jun-2008 17:23:01" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 17:23:01" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:49:00" Frontside="un estomac" TestsHit="3" TestsTotal="4">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="выключить (телевизор)" DateCreated="17-Jun-2008 18:21:55" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 18:21:55" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:49:04" Frontside="tourner le bouton" TestsHit="3" TestsTotal="5">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="животные" DateCreated="10-Jun-2008 18:28:56" DateExpired="27-Jul-2008 13:41:08" DateModified="10-Jun-2008 18:28:56" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:49:12" Frontside="des animaux" TestsHit="3" TestsTotal="5">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="Рождество" DateCreated="10-Jun-2008 18:54:51" DateExpired="27-Jul-2008 13:41:08" DateModified="10-Jun-2008 18:54:51" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:49:16" Frontside="le Noël" TestsHit="3" TestsTotal="5">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="талантливо" DateCreated="17-Jun-2008 17:28:34" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 17:28:34" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:49:19" Frontside="avec talent" TestsHit="4" TestsTotal="7">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="крутое яйцо" DateCreated="17-Jun-2008 18:05:55" DateExpired="27-Jul-2008 13:41:08" DateModified="17-Jun-2008 18:05:55" DateTested="24-Jul-2008 13:41:08" DateTouched="24-Jul-2008 13:49:29" Frontside="un œuf dur" TestsHit="3" TestsTotal="7">
+<Side/>
+<Side/>
+</Card>
+</Deck>
+</Category>
+</Category>
+</Category>
+</Category>
+<statistics>
+<session end="27-May-2008 16:17:01" failed="0" passed="3" relearned="0" skipped="0" start="27-May-2008 16:16:48"/>
+<session end="27-May-2008 17:02:00" failed="0" passed="9" relearned="0" skipped="0" start="27-May-2008 17:00:46"/>
+<session end="27-May-2008 17:04:30" failed="0" passed="17" relearned="0" skipped="0" start="27-May-2008 17:02:50"/>
+<session end="29-May-2008 15:46:45" failed="0" passed="1" relearned="0" skipped="0" start="29-May-2008 15:44:27"/>
+<session end="29-May-2008 16:10:37" failed="0" passed="2" relearned="0" skipped="0" start="29-May-2008 15:49:58"/>
+<session end="29-May-2008 16:19:36" failed="0" passed="4" relearned="0" skipped="0" start="29-May-2008 16:10:54"/>
+<session end="29-May-2008 16:41:49" failed="0" passed="3" relearned="0" skipped="0" start="29-May-2008 16:19:51"/>
+<session end="29-May-2008 17:49:44" failed="0" passed="8" relearned="0" skipped="0" start="29-May-2008 17:40:54"/>
+<session end="10-Jun-2008 17:55:14" failed="4" passed="0" relearned="0" skipped="0" start="10-Jun-2008 17:48:20"/>
+<session end="24-Jun-2008 12:50:21" failed="0" passed="11" relearned="0" skipped="1" start="23-Jun-2008 21:56:50"/>
+<session end="24-Jun-2008 13:02:39" failed="0" passed="10" relearned="7" skipped="0" start="24-Jun-2008 12:51:03"/>
+<session end="24-Jun-2008 14:00:13" failed="0" passed="38" relearned="0" skipped="1" start="24-Jun-2008 13:03:07"/>
+<session end="24-Jun-2008 15:08:30" failed="0" passed="44" relearned="0" skipped="0" start="24-Jun-2008 14:57:38"/>
+<session end="15-Jul-2008 18:50:39" failed="12" passed="70" relearned="11" skipped="0" start="15-Jul-2008 18:30:22"/>
+<session end="15-Jul-2008 18:51:46" failed="0" passed="12" relearned="0" skipped="0" start="15-Jul-2008 18:50:51"/>
+<session end="17-Jul-2008 13:41:35" failed="0" passed="10" relearned="13" skipped="0" start="17-Jul-2008 13:37:30"/>
+<session end="17-Jul-2008 13:44:08" failed="0" passed="10" relearned="7" skipped="0" start="17-Jul-2008 13:41:52"/>
+<session end="17-Jul-2008 13:48:51" failed="0" passed="8" relearned="4" skipped="0" start="17-Jul-2008 13:44:17"/>
+<session end="17-Jul-2008 14:00:31" failed="2" passed="0" relearned="0" skipped="0" start="17-Jul-2008 13:49:39"/>
+<session end="24-Jul-2008 13:40:54" failed="2" passed="25" relearned="0" skipped="0" start="24-Jul-2008 12:20:45"/>
+<session end="24-Jul-2008 13:50:38" failed="0" passed="62" relearned="6" skipped="0" start="24-Jul-2008 13:41:08"/>
+</statistics>
+</Lesson>
