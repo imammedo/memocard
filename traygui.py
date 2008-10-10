@@ -4,9 +4,12 @@ import gobject
 import threading
 
 import flashcard
+import carddb
+import jmemorize_db
 
 class TrayApp:
 	angle = 0
+
 	def __init__(self):
 		self.icon = egg.trayicon.TrayIcon("mail-message-new")
 		eventbox = gtk.EventBox()
@@ -29,6 +32,8 @@ class TrayApp:
 		gobject.timeout_add(5,self.rotate_cb)
 		gobject.threads_init()
 
+		self.db = jmemorize_db.jMemorizeDB()
+
 	def rotate_cb(self):
 		self.angle = self.angle +90
 		alpha_pixbuf = self.icon_pixbuf.rotate_simple(self.angle)
@@ -41,9 +46,10 @@ class TrayApp:
 		gobject.timeout_add(1000,self.click_cb2)
 
 	def click_cb2(self):
-		c = flashcard.Card("word","def")
+		term = self.db.getCard()
+		c = flashcard.Card(term.term(),term.definition())
 		c.show()
-		gobject.timeout_add(2000,self.click_cb2)
+		gobject.timeout_add(20000,self.click_cb2)
 
 	def run(self):
 		mainloop = gobject.MainLoop()
