@@ -1,5 +1,6 @@
 import carddb
 import xml.dom.minidom
+import random
 
 class jMemorizeCard(carddb.Card):
 	def __init__(self, tterm, tdef):
@@ -18,10 +19,9 @@ class jMemorizeDB(carddb.db):
 		self.index = 0
 
 	def getCard(self):
-		if self.index == self.cards.length:
-			self.index = 0
-		node = self.cards.item(self.index)
-		self.index = self.index + 1
+		i = random.randint(0, self.cards.length)
+		node = self.cards.item(i)
+		i = i + 1
 		return jMemorizeCard(node.getAttribute('Frontside'), node.getAttribute('Backside'))
 
 # test
