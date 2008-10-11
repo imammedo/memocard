@@ -25,9 +25,9 @@ class jMemorizeDB(carddb.db):
 		return jMemorizeCard(node.getAttribute('Frontside'), node.getAttribute('Backside'))
 
 # test
-db = jMemorizeDB()
-for i in range(0,3):
-	crd = db.getCard()
-	print 'Term: \n\t', crd.term()
-	print 'Def: \n\t', crd.definition()
+#db = jMemorizeDB()
+#for i in range(0,3):
+#	crd = db.getCard()
+#	print 'Term: \n\t', crd.term()
+#	print 'Def: \n\t', crd.definition()
 
