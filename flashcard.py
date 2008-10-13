@@ -26,7 +26,7 @@ except:
 def show(word, definition):
 	if has_pynotify == True:
 		n = pynotify.Notification(word, definition)
-		n.set_timeout(5000)
+		n.set_timeout(10000)
 		n.show()
 	else:
 		msg = "%s\n%s" % (word, definition)

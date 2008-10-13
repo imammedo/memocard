@@ -35,7 +35,7 @@ class TrayApp:
 	def click_cb(self, widget):
 		term = self.db.getCard()
 		flashcard.show(term.tterm, term.tdef)
-		gobject.timeout_add(10000,self.click_cb, 0)
+		gobject.timeout_add(60000,self.click_cb, 0)
 
 	def quit_cb(self, widget, data):
 		if data:
