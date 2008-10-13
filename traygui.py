@@ -30,7 +30,7 @@ class TrayApp:
 		#if button == 3:
 		if data:
 			data.show_all()
-			data.popup(None, None, None, 3, time) 
+			data.popup(None, None, None, 3, time)
 		
 	def click_cb(self, widget):
 		term = self.db.getCard()
@@ -40,7 +40,7 @@ class TrayApp:
 	def quit_cb(self, widget, data):
 		if data:
 			data.hide()
-		gtk.main_quit()	
+		gtk.main_quit()
 
 	def run(self):
 		gtk.main()
