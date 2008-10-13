@@ -25,7 +25,7 @@ except:
 
 def show(word, definition):
 	if has_pynotify == True:
-		n = pynotify.Notification(self.word, self.definition)
+		n = pynotify.Notification(word, definition)
 		n.set_timeout(5000)
 		n.show()
 	else:
