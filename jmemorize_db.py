@@ -22,7 +22,12 @@ class jMemorizeDB(carddb.db):
 		i = random.randint(0, self.cards.length)
 		node = self.cards.item(i)
 		i = i + 1
-		return jMemorizeCard(node.getAttribute('Frontside'), node.getAttribute('Backside'))
+		try:
+			c = jMemorizeCard(node.getAttribute('Frontside'),
+				node.getAttribute('Backside'))
+		except AttributeError, e:
+			c = self.getCard();
+		return c
 
 # test
 #db = jMemorizeDB()
