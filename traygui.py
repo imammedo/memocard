@@ -91,7 +91,7 @@ class TrayApp:
 
 	def flip_cb(self, widget):
 		if self.flip == True:
-			self.flip = Flase
+			self.flip = False
 		else:
 			self.flip = True
 
