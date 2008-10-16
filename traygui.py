@@ -63,6 +63,8 @@ class TrayApp:
 				menuItem = gtk.MenuItem('Filter')
 				menuItem.set_submenu(flt_menu)
 				menu.prepend(menuItem)
+				menu.connect('hide', self.setToolTip_from_filter)
+
 		except Exception, e:
 			print "Unable to get Filter menu from DB: ", e
 
@@ -80,6 +82,25 @@ class TrayApp:
 		else:
 			self.icon.pause()
 			self.slide_show_mode = False
+
+	def setToolTip_from_filter(self, widget = None):
+		tooltip_text = ''
+		try:
+			# getFilter may raise exception in case of it is missing
+			# in DB Backend, so handle it gracefully
+			flt_list = self.db.getFilter()
+			while len(flt_list):
+				i = flt_list.pop()
+				if tooltip_text == '':
+					tooltip_text = i
+				else:
+					tooltip_text = '%s / %s' % (tooltip_text, i)
+		except:
+			pass
+
+		if tooltip_text == '':
+			tooltip_text = 'Empty Filter'
+		self.icon.set_tooltip(tooltip_text)
 
 	def slide_show(self):
 		term = self.db.getCard()
