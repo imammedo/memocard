@@ -84,9 +84,14 @@ class jMemorizeDB(carddb.db):
 	def setFilter(self, widget):
 		self.filter = widget.get_data('selectedNode')
 		self.cards = self.filter.getElementsByTagName('Card')
-		print 'Set filter by node: ', self.filter.getAttribute('name')
 
 	def Filter_cb(self, widget, event):
+		'''
+		Makes MenuItem with submenu clickable, hides menu after
+		clicking on such item and provides activate signal for leaf
+		MenuItems because they do not emmit activate signal when
+		button-press-event event is connected to them
+		'''
 		if isinstance(widget, gtk.Menu):
 			widget.popdown()
 			m = widget.get_data('topMenu')
@@ -94,4 +99,17 @@ class jMemorizeDB(carddb.db):
 				m.popdown()
 		elif isinstance(widget, gtk.MenuItem):
 			widget.activate()
+
+	def getFilter(self):
+		'''Returns list of selected categories in db'''
+		try:
+			node = self.filter
+		except:
+			return []
+
+		selector = [ self.filter.getAttribute('name') ]
+		while node.parentNode.nodeName == 'Category':
+			node = node.parentNode
+			selector.append(node.getAttribute('name'))
+		return selector
 
