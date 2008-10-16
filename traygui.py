@@ -31,6 +31,7 @@ import jmemorize_db
 
 class TrayApp:
 	slide_interval = 60000
+	flip = False
 
 	def __init__(self):
 		self.icon = TrayIcon()
@@ -41,6 +42,9 @@ class TrayApp:
 		menuItem = gtk.MenuItem('Start/Stop slide show')
 		menuItem.connect('activate', self.slide_show_cb)
 		self.slide_show_mode = False
+		menu.append(menuItem)
+		menuItem = gtk.CheckMenuItem('Flip cards')
+		menuItem.connect('activate', self.flip_cb)
 		menu.append(menuItem)
 		menuItem = gtk.ImageMenuItem(gtk.STOCK_QUIT)
 		menuItem.connect('activate', self.quit_cb, self.icon)
@@ -79,8 +83,17 @@ class TrayApp:
 
 	def slide_show(self):
 		term = self.db.getCard()
-		flashcard.show(term.tterm, term.tdef)
+		if self.flip == True:
+			flashcard.show(term.tdef, term.tterm)
+		else:
+			flashcard.show(term.tterm, term.tdef)
 		return self.slide_show_mode
+
+	def flip_cb(self, widget):
+		if self.flip == True:
+			self.flip = Flase
+		else:
+			self.flip = True
 
 	def quit_cb(self, widget, data):
 		if data:
