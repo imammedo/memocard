@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# vim: set fileencoding=utf-8
+
 #    Copyright © 2008 Igor Mammedov,
 #    Contact email: igor@mammed.net
 #
@@ -25,22 +28,13 @@ has_pynotify = False
 try:
 	import pynotify
 	if  pynotify.init("memocard"):
-		print "pynotify initialized"
+		pass
 	else:
-		print "there was a problem initializing the pynotify module"
+		pass
 
 	has_pynotify = True
-
-	class CardGNotify(Card):
-		def __init__(self, word, definition):
-			self.word = word
-			self.definition = definition
-		def show(self):
-			n = pynotify.Notification(self.word, self.definition)
-			n.set_timeout(5000)
-			n.show()
 except:
-	print "no pynotify loaded"
+	pass
 
 def show(word, definition):
 	if has_pynotify == True:

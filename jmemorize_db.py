@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# vim: set fileencoding=utf-8
+
 #    Copyright © 2008 Igor Mammedov,
 #    Contact email: igor@mammed.net
 #

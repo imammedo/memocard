@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# vim: set fileencoding=utf-8
+
 #    Copyright © 2008 Igor Mammedov,
 #    Contact email: igor@mammed.net
 #
@@ -19,34 +22,20 @@
 
 import gtk
 
-class TrayIcon:
-	def show(self):
-		return
-	def hide(self):
-		return
-	def connect(self, event, handler):
-		return
-	def connect(self, event, handler, obj):
-		return
+class TrayIcon(gtk.StatusIcon):
 
-class TrayIconGTK(TrayIcon):
-
-	def __init__(self, icon_file):
-		self.icon = gtk.StatusIcon()
-		self.icon.set_from_file(icon_file)
+	def __init__(self):
+		gtk.StatusIcon.__init__(self)
 
 	def show(self):
-			self.icon.set_visible(True)
+		self.set_from_file('mc_main.png')
+		self.set_visible(True)
 
 	def hide(self):
-		self.icon.set_visible(False)
+		self.set_visible(False)
 
-	def connect(self, event, handler):
-		return self.icon.connect(event, handler)
+	def pause(self):
+		self.set_from_file('mc_pause.png')
 
-	def connect(self, event, handler, obj):
-		return self.icon.connect(event, handler, obj)
-
-def getIcon():
-	return TrayIconGTK("gnome-dev-wavelan.png")
-
+	def slideshow(self):
+		self.set_from_file('mc_slideshow.png')
