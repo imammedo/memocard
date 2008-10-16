@@ -25,13 +25,22 @@ class TrayApp:
 		self.icon.show()
 
 		self.db = jmemorize_db.jMemorizeDB()
+		"Add Filter menu Item if backend provides it"
+		try:
+			flt_menu = self.db.getMenu(menu)
+			if flt_menu != None:
+				menuItem = gtk.MenuItem('Filter')
+				menuItem.set_submenu(flt_menu)
+				menu.prepend(menuItem)
+		except Exception, e:
+			print "Get Cards filter failed: ", e
+
 
 	def popup_menu_cb(self, widget, button, time, data = None):
-		#if button == 3:
 		if data:
 			data.show_all()
 			data.popup(None, None, None, 3, time)
-		
+
 	def click_cb(self, widget):
 		term = self.db.getCard()
 		flashcard.show(term.tterm, term.tdef)
