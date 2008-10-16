@@ -66,13 +66,13 @@ class jMemorizeDB(carddb.db):
 			return None
 
 		menu = gtk.Menu()
-		menu.connect('button-press-event', self.setFilter)
+		menu.connect('button-press-event', self.Filter_cb)
 		for n in nodes:
 			menuItem = gtk.MenuItem(n.getAttribute('name'))
-			menuItem.connect('activate', self.prepareFilter)
-			menuItem.set_data('cardNode', n)
+			menuItem.connect('activate', self.setFilter)
+			menuItem.set_data('selectedNode', n)
 			menuItem.set_data('topMenu', topMenu)
-			menuItem.connect('button-press-event', self.setFilter)
+			menuItem.connect('button-press-event', self.Filter_cb)
 			menu.append(menuItem)
 			submenu = self.getMenu(topMenu, n)
 			if submenu != None:
@@ -81,12 +81,12 @@ class jMemorizeDB(carddb.db):
 
 		return menu
 
-	def prepareFilter(self, widget):
-		self.filter = widget.get_data('cardNode')
+	def setFilter(self, widget):
+		self.filter = widget.get_data('selectedNode')
 		self.cards = self.filter.getElementsByTagName('Card')
 		print 'Set filter by node: ', self.filter.getAttribute('name')
 
-	def setFilter(self, widget, event):
+	def Filter_cb(self, widget, event):
 		if isinstance(widget, gtk.Menu):
 			widget.popdown()
 			m = widget.get_data('topMenu')
