@@ -25,6 +25,7 @@ import carddb
 import xml.dom.minidom
 from xml import xpath
 import random
+import zipfile
 
 class jMemorizeCard(carddb.Card):
 	def __init__(self, tterm, tdef):
@@ -39,6 +40,24 @@ class jMemorizeCard(carddb.Card):
 class jMemorizeDB(carddb.db):
 	def __init__(self):
 		self.doc = xml.dom.minidom.parse('french.jml')
+		self.cards = self.doc.getElementsByTagName('Card')
+		self.index = 0
+
+	def open_db(self, db_file):
+		if zipfile.is_zipfile(db_file):
+			try:
+				z = zipfile.ZipFile(db_file, "r")
+				for filename in z.namelist():
+					bytes = z.read(filename)
+					print filename
+					print len(bytes)
+					self.doc = xml.dom.minidom.parseString(bytes)
+			except Exception, e:
+				print e
+				return
+		else:
+			self.doc = xml.dom.minidom.parse(db_file)
+
 		self.cards = self.doc.getElementsByTagName('Card')
 		self.index = 0
 
