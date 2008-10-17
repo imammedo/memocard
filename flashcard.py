@@ -32,36 +32,59 @@ try:
 	else:
 		pass
 
-	has_pynotify = True
+#	has_pynotify = True
 except:
 	pass
 
-def show(word, definition):
+def show(word, definition, timeout = 10000):
 	if has_pynotify == True:
 		n = pynotify.Notification(word, definition)
 		n.set_timeout(10000)
 		n.show()
 	else:
-		msg = "%s\n%s" % (word, definition)
+		word = word.encode('utf-8')
+		word = word.replace('\n','<br/>')
+		definition = definition.encode('utf-8')
+		definition = definition.replace('\n','<br/>')
+
 		win = gtk.Window(type=gtk.WINDOW_POPUP)
-		#win = gtk.Window(type=gtk.WINDOW_TOPLEVEL)
-		#win.add(gtk.Label(msg))
-		#win.set_decorated(False)
-		win.set_gravity(gtk.gdk.GRAVITY_SOUTH_EAST)
-		win.move(10,10)
-		win.stick()
+		#win.set_gravity(gtk.gdk.GRAVITY_SOUTH_EAST)
+
 		from htmltextview import HtmlTextView
 		htmlview = HtmlTextView()
-		text = '<body><h1>%s</h1><br/><h2>%s</h2></body>' % (word, definition) 
+		htmlview.set_left_margin(5)
+		htmlview.set_right_margin(5)
+		htmlview.set_wrap_mode(gtk.WRAP_NONE)
+		text = '<body><div style="color:blue;font-size:large;font-weight:bold;font-family:serif">%s</div>%s</body>' % (word, definition)
 		htmlview.display_html(text)
 		htmlview.show()
+
 		frame = gtk.Frame()
 		frame.set_shadow_type(gtk.SHADOW_IN)
 		frame.show()
 		frame.add(htmlview)
-		win.set_default_size(400, 300)
 		win.add(frame)
+		win.connect('configure-event', placement_cb)
+		win.show()
+		win.realize()
+		desktop_type = gtk.gdk.atom_intern("_NET_WM_WINDOW_TYPE_DESKTOP", False)
+		print desktop_type
+		win.window.property_change(gtk.gdk.atom_intern("_NET_WM_WINDOW_TYPE", False),
+				gtk.gdk.atom_intern("ATOM", False), 32,
+				gtk.gdk.PROP_MODE_REPLACE,['_NET_WM_WINDOW_TYPE_NOTIFICATION'])
+
+
 		win.show_all()
-		gobject.timeout_add(10000, win.destroy)
 
+		#width, height = win.get_size()
+		#x = win.get_screen().get_width() - width
+		#y = win.get_screen().get_height() - height
+		#print 'a: ', width, ':', height
+		#win.move(x, y)
+		gobject.timeout_add(timeout, win.destroy)
 
+def placement_cb(widget, event):
+	width, height = widget.get_size()
+	x = widget.get_screen().get_width() - width
+	y = widget.get_screen().get_height() - height
+	#widget.move(x, y)
