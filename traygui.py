@@ -55,7 +55,7 @@ class TrayApp:
 
 		# Init cards database
 		self.db = jmemorize_db.jMemorizeDB()
-		self.db.open_db('Chinese.jml')
+		self.db.open_db('french.jml')
 
 		# Add Filter menu Item if backend provides it
 		try:

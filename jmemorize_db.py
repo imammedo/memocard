@@ -39,9 +39,10 @@ class jMemorizeCard(carddb.Card):
 
 class jMemorizeDB(carddb.db):
 	def __init__(self):
-		self.doc = xml.dom.minidom.parse('french.jml')
-		self.cards = self.doc.getElementsByTagName('Card')
-		self.index = 0
+		#self.doc = xml.dom.minidom.parse('french.jml')
+		#self.cards = self.doc.getElementsByTagName('Card')
+		#self.index = 0
+		pass
 
 	def open_db(self, db_file):
 		if zipfile.is_zipfile(db_file):

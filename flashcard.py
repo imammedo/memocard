@@ -42,49 +42,35 @@ def show(word, definition, timeout = 10000):
 		n.set_timeout(10000)
 		n.show()
 	else:
-		word = word.encode('utf-8')
-		word = word.replace('\n','<br/>')
-		definition = definition.encode('utf-8')
-		definition = definition.replace('\n','<br/>')
+		#word = word.encode('utf-8')
+		#definition = definition.encode('utf-8')
 
-		win = gtk.Window(type=gtk.WINDOW_POPUP)
-		#win.set_gravity(gtk.gdk.GRAVITY_SOUTH_EAST)
+		l1 = gtk.Label('<span foreground="blue" size="large"><b>%s</b></span>' % word)
+		l1.set_use_markup(True)
+		l1.set_alignment(xalign=0, yalign=0.5)
 
-		from htmltextview import HtmlTextView
-		htmlview = HtmlTextView()
-		htmlview.set_left_margin(5)
-		htmlview.set_right_margin(5)
-		htmlview.set_wrap_mode(gtk.WRAP_NONE)
-		text = '<body><div style="color:blue;font-size:large;font-weight:bold;font-family:serif">%s</div>%s</body>' % (word, definition)
-		htmlview.display_html(text)
-		htmlview.show()
+		l2 = gtk.Label('<span foreground="black" size="medium"><b>%s</b></span>' %definition)
+		l2.set_use_markup(True)
+		l2.set_alignment(xalign=0, yalign=0.5)
+
+		tbl = gtk.Table(2,1)
+		tbl.attach(l1, 0, 1, 0, 1, xpadding=5, ypadding=5)
+		tbl.attach(l2, 0, 1, 1, 2, xpadding=5, ypadding=5)
 
 		frame = gtk.Frame()
-		frame.set_shadow_type(gtk.SHADOW_IN)
+		frame.set_shadow_type(gtk.SHADOW_ETCHED_OUT)
 		frame.show()
-		frame.add(htmlview)
+		frame.add(tbl)
+
+		win = gtk.Window(type=gtk.WINDOW_POPUP)
+		win.set_geometry_hints(None, 160, 50)
 		win.add(frame)
 		win.connect('configure-event', placement_cb)
-		win.show()
-		win.realize()
-		desktop_type = gtk.gdk.atom_intern("_NET_WM_WINDOW_TYPE_DESKTOP", False)
-		print desktop_type
-		win.window.property_change(gtk.gdk.atom_intern("_NET_WM_WINDOW_TYPE", False),
-				gtk.gdk.atom_intern("ATOM", False), 32,
-				gtk.gdk.PROP_MODE_REPLACE,['_NET_WM_WINDOW_TYPE_NOTIFICATION'])
-
-
 		win.show_all()
-
-		#width, height = win.get_size()
-		#x = win.get_screen().get_width() - width
-		#y = win.get_screen().get_height() - height
-		#print 'a: ', width, ':', height
-		#win.move(x, y)
 		gobject.timeout_add(timeout, win.destroy)
 
 def placement_cb(widget, event):
 	width, height = widget.get_size()
-	x = widget.get_screen().get_width() - width
-	y = widget.get_screen().get_height() - height
-	#widget.move(x, y)
+	x = widget.get_screen().get_width() - width - 3
+	y = widget.get_screen().get_height() - height - 40
+	widget.move(x, y)
