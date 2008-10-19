@@ -22,6 +22,7 @@
 
 import gtk
 import gobject
+import ConfigParser
 
 from trayicon import TrayIcon
 
@@ -30,10 +31,28 @@ import carddb
 import jmemorize_db
 
 class TrayApp:
-	slide_interval = 60000
-	flip = False
+
+	def get_default_config(self):
+		config = ConfigParser.RawConfigParser()
+		config.add_section('GUI')
+		config.set('GUI', 'CardWindowY', '15')
+		config.set('GUI', 'CardWindowY', '15')
+		config.add_section('Learning')
+		config.set('Learning', 'SlideTimeout', '10')
+		config.set('Learning', 'SlideInterval', '40')
+		config.set('Learning', 'FlipSides', 'false')
+		config.set('Learning', 'DefaultDB', 'french.jml')
+		return config
+
 
 	def __init__(self):
+
+		self.config = ConfigParser.RawConfigParser()
+		#try:
+		self.config.read('memocard.cfg')
+		#except:
+			
+
 		self.icon = TrayIcon()
 		self.icon.connect('activate', self.slide_show_cb)
 
