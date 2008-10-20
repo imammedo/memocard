@@ -42,9 +42,6 @@ def show(word, definition, timeout = 10000):
 		n.set_timeout(10000)
 		n.show()
 	else:
-		#word = word.encode('utf-8')
-		#definition = definition.encode('utf-8')
-
 		l1 = gtk.Label('<span foreground="blue" size="large"><b>%s</b></span>' % word)
 		l1.set_use_markup(True)
 		l1.set_alignment(xalign=0, yalign=0.5)
@@ -66,11 +63,12 @@ def show(word, definition, timeout = 10000):
 		win.set_geometry_hints(None, 160, 50)
 		win.add(frame)
 		win.connect('configure-event', placement_cb)
+		win.connect('show', placement_cb)
 		win.show_all()
 		gobject.timeout_add(timeout, win.destroy)
 
-def placement_cb(widget, event):
+def placement_cb(widget, event = None):
 	width, height = widget.get_size()
 	x = widget.get_screen().get_width() - width - 3
-	y = widget.get_screen().get_height() - height - 40
+	y = widget.get_screen().get_height() - height - 30
 	widget.move(x, y)
