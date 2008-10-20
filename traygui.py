@@ -44,14 +44,14 @@ class TrayApp:
 		config.set('Learning', 'DefaultDB', 'french.jml')
 		return config
 
-
 	def __init__(self):
-
 		self.config = ConfigParser.RawConfigParser()
-		#try:
-		self.config.read('memocard.cfg')
-		#except:
-			
+		try:
+			self.config.readfp(open('memocard.cfg'))
+		except:
+			self.config = self.get_default_config()
+
+		self.flip = self.config.getboolean('Learning', 'FlipSides')
 
 		self.icon = TrayIcon()
 		self.icon.connect('activate', self.slide_show_cb)
@@ -74,7 +74,7 @@ class TrayApp:
 
 		# Init cards database
 		self.db = jmemorize_db.jMemorizeDB()
-		self.db.open_db('french.jml')
+		self.db.open_db(self.config.get('Learning', 'DefaultDB'))
 
 		# Add Filter menu Item if backend provides it
 		try:
@@ -98,7 +98,8 @@ class TrayApp:
 			self.icon.slideshow()
 			self.slide_show_mode = True
 			self.slide_show()
-			gobject.timeout_add(self.slide_interval,self.slide_show)
+			gobject.timeout_add( self.config.getint('Learning',
+				'SlideInterval')*1000, self.slide_show)
 		else:
 			self.icon.pause()
 			self.slide_show_mode = False
@@ -125,9 +126,13 @@ class TrayApp:
 	def slide_show(self):
 		term = self.db.getCard()
 		if self.flip == True:
-			flashcard.show(term.tdef, term.tterm)
+			flashcard.show(term.tdef, term.tterm,
+					self.config.getint('Learning',
+						'SlideTimeout')*1000)
 		else:
-			flashcard.show(term.tterm, term.tdef)
+			flashcard.show(term.tterm, term.tdef,
+					self.config.getint('Learning',
+						'SlideTimeout')*1000)
 		return self.slide_show_mode
 
 	def flip_cb(self, widget):
