@@ -63,12 +63,16 @@ def show(word, definition, timeout = 10000):
 		win.set_geometry_hints(None, 160, 50)
 		win.add(frame)
 		win.connect('configure-event', placement_cb)
+
+		x = win.get_screen().get_width() - 160 - 2
+		y = win.get_screen().get_height() - 50 - 38
+		win.move(x, y)
 		win.connect('show', placement_cb)
 		win.show_all()
 		gobject.timeout_add(timeout, win.destroy)
 
 def placement_cb(widget, event = None):
 	width, height = widget.get_size()
-	x = widget.get_screen().get_width() - width - 3
-	y = widget.get_screen().get_height() - height - 30
+	x = widget.get_screen().get_width() - width - 2
+	y = widget.get_screen().get_height() - height - 38
 	widget.move(x, y)
