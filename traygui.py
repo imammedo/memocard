@@ -144,6 +144,7 @@ class TrayApp:
 	def quit_cb(self, widget, data):
 		if data:
 			data.hide()
+		self.config.write(open('memocard.cfg','wb'))
 		gtk.main_quit()
 
 	def run(self):
