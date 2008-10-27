@@ -67,7 +67,6 @@ def show(word, definition, timeout = 10000):
 		x = win.get_screen().get_width() - 160 - 2
 		y = win.get_screen().get_height() - 50 - 38
 		win.move(x, y)
-		win.connect('show', placement_cb)
 		win.show_all()
 		gobject.timeout_add(timeout, win.destroy)
 
