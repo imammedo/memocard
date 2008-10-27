@@ -58,6 +58,7 @@ class TrayApp:
 
 		# Build menu
 		menu = gtk.Menu()
+		self.topMenu = menu
 		menuItem = gtk.MenuItem('Start/Stop slide show')
 		menuItem.connect('activate', self.slide_show_cb)
 		self.slide_show_mode = False
@@ -78,15 +79,56 @@ class TrayApp:
 
 		# Add Filter menu Item if backend provides it
 		try:
-			flt_menu = self.db.getMenu(menu)
+			flt = self.db.getFilter()
+			flt_menu = self.build_FilterMenu(flt)
 			if flt_menu != None:
 				menuItem = gtk.MenuItem('Filter')
 				menuItem.set_submenu(flt_menu)
 				menu.prepend(menuItem)
 				menu.connect('hide', self.setToolTip_from_filter)
-
 		except Exception, e:
 			print "Unable to get Filter menu from DB: ", e
+
+	def build_FilterMenu(self, filter):
+		menu = gtk.Menu()
+		menu.connect('button-press-event', self.Filter_Menu_Hide_cb)
+		for n in filter:
+			menuItem = gtk.MenuItem(n['name'])
+			menuItem.set_data('topMenu', self.topMenu)
+			menuItem.set_data('data', n['data'])
+			menuItem.connect('activate', self.setFilter)
+			menuItem.connect('button-press-event',
+					self.Filter_Menu_Hide_cb)
+			menu.append(menuItem)
+			if 'sublevel' in n:
+				submenu = self.build_FilterMenu(n['sublevel'])
+				if submenu != None:
+					menuItem.set_submenu(submenu)
+					submenu.set_data('topMenu', self.topMenu)
+		return menu
+
+	def setFilter(self, widget):
+		'''
+		Sets filter in DB using 'data' from activated menuItem
+		'''
+		self.db.setFilter(widget.get_data('data'))
+
+	def Filter_Menu_Hide_cb(self, widget, event):
+		'''
+		Makes MenuItem with submenu clickable, hides menu after
+		clicking on such item and provides activate signal for leaf
+		MenuItems because they do not emmit activate signal when
+		button-press-event event is connected to them
+		'''
+		if isinstance(widget, gtk.Menu):
+			widget.popdown()
+			m = widget.get_data('topMenu')
+			if m != None:
+				m.popdown()
+		elif isinstance(widget, gtk.MenuItem):
+			widget.activate()
+
+
 
 	def popup_menu_cb(self, widget, button, time, data = None):
 		if data:
@@ -107,9 +149,9 @@ class TrayApp:
 	def setToolTip_from_filter(self, widget = None):
 		tooltip_text = ''
 		try:
-			# getFilter may raise exception in case of it is missing
+			# getFilterDescription may raise exception in case of it is missing
 			# in DB Backend, so handle it gracefully
-			flt_list = self.db.getFilter()
+			flt_list = self.db.getFilterDescription()
 			while len(flt_list):
 				i = flt_list.pop()
 				if tooltip_text == '':

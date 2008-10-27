@@ -20,7 +20,6 @@
 #    along with MemoCard.  If not, see <http://www.gnu.org/licenses/>.
 
 
-import gtk
 import carddb
 import xml.dom.minidom
 from xml import xpath
@@ -76,7 +75,7 @@ class jMemorizeDB(carddb.db):
 			c = self.getCard();
 		return c
 
-	def getMenu(self, topMenu, node = None):
+	def getFilter(self, node = None):
 		if node == None:
 			node = self.doc.documentElement
 
@@ -85,42 +84,22 @@ class jMemorizeDB(carddb.db):
 		if len(nodes) == 0:
 			return None
 
-		menu = gtk.Menu()
-		menu.connect('button-press-event', self.Filter_cb)
+		level = []
 		for n in nodes:
-			menuItem = gtk.MenuItem(n.getAttribute('name'))
-			menuItem.connect('activate', self.setFilter)
-			menuItem.set_data('selectedNode', n)
-			menuItem.set_data('topMenu', topMenu)
-			menuItem.connect('button-press-event', self.Filter_cb)
-			menu.append(menuItem)
-			submenu = self.getMenu(topMenu, n)
-			if submenu != None:
-				menuItem.set_submenu(submenu)
-				submenu.set_data('topMenu',topMenu)
+			elem = {}
+			elem['name'] = n.getAttribute('name')
+			elem['data'] = n
+			sublevel = self.getFilter(n)
+			if sublevel != None:
+				elem['sublevel'] = sublevel
+			level.append(elem)
+		return level
 
-		return menu
-
-	def setFilter(self, widget):
-		self.filter = widget.get_data('selectedNode')
+	def setFilter(self, branch_node):
+		self.filter = branch_node
 		self.cards = self.filter.getElementsByTagName('Card')
 
-	def Filter_cb(self, widget, event):
-		'''
-		Makes MenuItem with submenu clickable, hides menu after
-		clicking on such item and provides activate signal for leaf
-		MenuItems because they do not emmit activate signal when
-		button-press-event event is connected to them
-		'''
-		if isinstance(widget, gtk.Menu):
-			widget.popdown()
-			m = widget.get_data('topMenu')
-			if m != None:
-				m.popdown()
-		elif isinstance(widget, gtk.MenuItem):
-			widget.activate()
-
-	def getFilter(self):
+	def getFilterDescription(self):
 		'''Returns list of selected categories in db'''
 		try:
 			node = self.filter
