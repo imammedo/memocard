@@ -1,2 +1,5 @@
+Start program:
+$ python run_flash.py
 
+Used falsh card DB specified in memocard.cfg, option 'defaultdb'
 
